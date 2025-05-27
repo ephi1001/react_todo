@@ -43,10 +43,11 @@ function Todolist() {
   };
 
   const toggleCompleted = (index) => {
-    const updatedTodos = [...todos];
-    updatedTodos[index].completed = !updatedTodos[index].completed;
-    setTodos(updatedTodos);
-  };
+  const updatedTodos = [...todos];
+  updatedTodos[index].completed = !updatedTodos[index].completed;
+  setTodos(updatedTodos);
+};
+
 
   return (
     <div className="todo-container">
