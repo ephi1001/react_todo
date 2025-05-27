@@ -1,5 +1,5 @@
 import React from 'react'
-import { BiCheckDouble, BiTrash, BiRefresh, BiCheckCircle, BiReset, BiEdit } from 'react-icons/bi';
+import { BiCheckDouble, BiEdit, BiTrash, BiCheckCircle, BiReset, BiRefresh, BiPlus } from 'react-icons/bi';
 import './todolist.css';
 
 function Todolist() {
@@ -11,7 +11,7 @@ function Todolist() {
             <>
             <button className="update-btn"><BiCheckDouble /></button>
             <button className="cancel-btn"><BiRefresh /></button>
-            <button className="add-btn"><Add /></button>
+            <button className="add-btn"><BiPlus /></button>
 
             </>
         </div>
